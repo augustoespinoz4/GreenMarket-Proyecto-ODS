@@ -1,0 +1,12 @@
+
+.nombre-producto {
+  text-align: center;
+  margin-bottom: 15rem;
+}
+
+@media only screen and (max-width: 578px) {
+  .nombre-producto {
+    margin-bottom: 2rem;
+  }
+}
+  

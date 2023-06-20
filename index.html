@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GreenMarket</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" href="css/headerFooter.css">
+        <link rel="stylesheet" href="css/indexMain.css">
+        <link rel="stylesheet" href="css/catalogoProductos.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark" style="background: linear-gradient(to bottom right, #6AD475, #6AD475);">
+            <div class="container">
+                <a href="index.html" class="navbar-brand mb-0 h1">
+                    <i class="bi bi-recycle"></i>
+                    Green-Market
+                </a>
+                <button 
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                class="navbar-toggler collapsed d-flex d-sm-none flex-column justify-content-around"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="mision.html" class="nav-link">Misión</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="catalogoProductos.html" class="nav-link">Productos</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="contacto.html" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="imagen">
+                <img src="imagenes/imagenProyecto.jpg" alt="imagen-naturaleza">
+                <div class="texto-encima">
+                    Green-Market
+                </div>
+            </div>               
+
+            <div class="container">
+                <h2 class="mt-5">¡Bienvenido a Green-Market!</h2>
+
+                    <p>En Green-Market, creemos firmemente en el poder de las decisiones de consumo para transformar nuestro mundo. Somos una empresa comprometida con la promoción de un estilo de vida sostenible y consciente, ofreciendo una amplia gama de productos ecoamigables para el cuidado personal, la cocina y la limpieza.</p>
+                    
+                    <p>Nuestro objetivo principal es brindarte opciones que sean respetuosas con el medio ambiente, para que puedas disfrutar de productos de alta calidad sin comprometer el bienestar de nuestro planeta. Nos enorgullece ser una empresa alineada con los Objetivos de Desarrollo Sostenible (ODS) establecidos por las Naciones Unidas, trabajando en conjunto para construir un futuro más verde y equilibrado.</p>
+                    
+                    <p>En Green-Market, encontrarás una selección cuidadosamente curada de productos sostenibles que han sido elegidos pensando en tu bienestar y en el del medio ambiente. Desde nuestra sección de cuidado personal, donde ofrecemos cosméticos naturales y productos para el cuidado del cuerpo elaborados con ingredientes orgánicos y libres de químicos dañinos, hasta nuestra sección de cocina, donde podrás descubrir utensilios y accesorios ecológicos para una experiencia culinaria más consciente. También contamos con una sección dedicada a la limpieza del hogar, donde encontrarás productos de limpieza biodegradables y eficientes que te ayudarán a mantener un ambiente limpio y saludable.</p>
+                    
+                    <p>Nos enorgullece colaborar con proveedores que comparten nuestros valores y criterios de sostenibilidad, asegurándonos de ofrecerte productos de la más alta calidad y producidos de manera ética. En Green-Market, nos esforzamos por ser más que una tienda; queremos ser tu aliado en el camino hacia un estilo de vida más respetuoso con el planeta, brindándote soluciones prácticas y opciones responsables.</p>
+                    
+                    <p>Te invitamos a explorar nuestro sitio y descubrir la variedad de productos sostenibles que tenemos para ofrecerte. Con cada elección consciente que hagas, estarás contribuyendo a un futuro más saludable y sostenible para todos.</p>
+                    
+                    <p class="mb-5">¡Únete a Green-Market y sé parte del cambio hacia un mundo más verde y próspero!</p>
+            </div>
+
+            <hr>
+
+            <div class="containerMain">
+                <h1>Algunos de nuestros productos</h1>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cajaProducto">
+                            <a href="producto.html?productoID=12" style="text-decoration: none; color: black;">
+                                <img src="imagenes/productos/seccionLimpieza/limpiaPiso.jpg" alt="foto-limpia-pisos">
+                                <hr class="separador">
+                                <h3 class="nombreProducto">Limpia Pisos 1ltr</h3>
+                                <p class="precioProducto">$1259.99</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cajaProducto">
+                            <a href="producto.html?productoID=1" style="text-decoration: none; color: black;">
+                                <img id="imagenProducto" src="imagenes/productos/seccionCuidadoPersonal/maquina-de-afeitar-biodegradable.jpg" alt="foto-maquina-de-afeitar-biodegradable">
+                                <hr class="separador">
+                                <h3 class="nombreProducto">Maquina de Afeitar</h3>
+                                <p class="precioProducto">$1199.99</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cajaProducto">
+                            <a href="producto.html?productoID=17" style="text-decoration: none; color: black;">
+                                <img src="imagenes/productos/seccionCuidadoPersonal/cepillo-corporal.jpg" alt="foto-cepillo-corporal-de-madera-de-bambu">
+                                <hr class="separador">
+                                <h3 class="nombreProducto">Cepillo Corporal</h3>
+                                <p class="precioProducto">$3899.99</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cajaProducto">
+                            <a href="producto.html?productoID=10" style="text-decoration: none; color: black;">
+                                <img src="imagenes/productos/seccionCocina/bolsas15x20.jpg" alt="foto-bolsas-biodegradables">
+                                <hr class="separador">
+                                <h3 class="nombreProducto">Bolsas Biodegradables</h3>
+                                <p class="precioProducto">$499.99</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cajaProducto">
+                            <a href="producto.html?productoID=7" style="text-decoration: none; color: black;">
+                                <img src="imagenes/productos/seccionCocina/taza.jpg" alt="foto-taza">
+                                <hr class="separador">
+                                <h3 class="nombreProducto">Taza/Vaso Ecológico Portátil</h3>
+                                <p class="precioProducto">$1499.99</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cajaProducto">
+                            <a href="producto.html?productoID=5" style="text-decoration: none; color: black;">
+                                <img src="imagenes/productos/seccionCuidadoPersonal/pasta-de-dientes.jpg" alt="foto-pasta-de-dientes">
+                                <hr class="separador">
+                                <h3 class="nombreProducto">Pasta de dientes</h3>
+                                <p class="precioProducto">$1199.99</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cajaProducto">
+                            <a href="producto.html?productoID=3" style="text-decoration: none; color: black;">
+                                <img src="imagenes/productos/seccionCuidadoPersonal/cepillo-de-bambu.jpg" alt="foto-cepillo-de-bambu">
+                                <hr class="separador">
+                                <h3 class="nombreProducto">Cepillo de Bambú</h3>
+                                <p class="precioProducto">$559.99</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cajaProducto">
+                            <a href="producto.html?productoID=14" style="text-decoration: none; color: black;">
+                                <img src="imagenes/productos/seccionLimpieza/limpia-banios.jpg" alt="foto-limpia-pisos-5litros">
+                                <hr class="separador">
+                                <h3 class="nombreProducto">Limpia Baños</h3>
+                                <p class="precioProducto">$1254.99</p>
+                            </a>
+                          </div>
+                      </div>
+                </div>
+              </div>
+
+            <hr>
+            
+            <div class="container" style="margin-bottom: 8rem;">
+                <h1>Una compra, un árbol</h1>
+                <p class="mt-5"> En Green-Market, estamos comprometidos con la reforestación y la conservación del medio ambiente. Creemos en la importancia de restaurar y preservar los bosques como una forma efectiva de contrarrestar el cambio climático y promover la biodiversidad.</p>
+
+                <p>Por cada compra realizada en Green-Market, nos comprometemos a plantar un árbol. Creemos que este es un paso significativo hacia la compensación de la huella ambiental generada por la producción y distribución de nuestros productos.</p>
+                    
+                <p>Trabajamos en colaboración con organizaciones especializadas en reforestación y proyectos de conservación para llevar a cabo nuestras plantaciones de árboles. Seleccionamos cuidadosamente las especies autóctonas adecuadas para cada región, asegurando así la viabilidad a largo plazo de los bosques que ayudamos a crear.</p>
+                    
+                <p>Con esta iniciativa, no solo estamos contribuyendo a la mitigación del cambio climático, sino también a la creación de hábitats naturales para la flora y fauna local, la protección de cuencas hidrográficas y la promoción de la resiliencia de los ecosistemas.</p>
+                    
+                <p>Creemos en la importancia de asumir la responsabilidad por nuestros impactos ambientales y en la capacidad de cada individuo para marcar la diferencia. Al comprar en Green-Market, no solo estarás eligiendo productos sostenibles, sino que también estarás contribuyendo directamente a la conservación y restauración de los bosques, ayudando a construir un futuro más verde y saludable para todos.</p>
+                    
+                <p >¡Gracias por ser parte de nuestro compromiso con la reforestación y la sostenibilidad ambiental! Juntos, podemos hacer una diferencia duradera.</p>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="grass">
+                <div class="trees">
+                    <img src="imagenes/arbol.png" alt="Tree 1" class="tree">
+                    <img src="imagenes/arbol.png" alt="Tree 2" class="tree">
+                </div>
+            </div>
+            <div class="containerFooter">
+                <ul class="navFooter nav justify-content-around border-bottom pb-1 mb-1">
+                    <div class="containerFoot flex-sm-row">
+                        Integrantes
+                        <ul class="list-unstyled pt-4">
+                            <li class="fw-light fst-italic">Augusto Espinoza</li>
+                            <li class="fw-light fst-italic">Alex. Koussoumides</li>
+                            <li class="fw-light fst-italic">Tomás Ercoli</li>
+                            <li class="fw-light fst-italic">Iván Gamalero</li>
+                        </ul>
+                    </div>
+                    <div class="containerFoot">
+                        <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a>
+                        </li>
+                    </div>
+                    <div class="containerFoot">
+                        <li class="nav-item"><a href="catalogoProductos.html" class="nav-link px-2">Ir a la tienda</a>
+                        </li>
+                    </div>
+                    <div class="containerFoot">
+                        <li class="nav-item"><a href="contacto.html" class="nav-link px-2">Contacto</a>
+                        </li>
+                    </div>
+                </ul>
+                <div class="containerLeyenda">
+                    <h6 class="mb-0">Trabajo Grupal - Materia Diseño y Desarrollo Web</h6>
+                    <img class="mt-4" src="imagenes/logo-uade.png" alt="logo de UADE" id="logo-uade">
+                </div>        
+                <h6 class="text-center mt-4 mb-0" style="text-decoration: none;">© 2023</h6>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>
